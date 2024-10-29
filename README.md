@@ -111,14 +111,14 @@ Copyright (c) 2024 **NezarElAyachi**
 
 
 ## Credits
-- Special thanks to **NizarETH** for assistance with the "Upload" button functionality, ensuring smooth image loading from device storage.
+- Special thanks to [@NizarETH](https://github.com/NizarETH) for assistance with the "Upload" button functionality, ensuring smooth image loading from device storage.
 - Glide library: https://github.com/bumptech/glide
 - Icons from flaticon.com
 
 ## Screenshots
 | Screen | Description |
 |--------|-------------|
-| ![image](https://github.com/user-attachments/assets/38943b15-221b-4575-bbc1-3dc01a462253) | Main interface with three buttons: Local, URL, and Upload |
-| ![image](https://github.com/user-attachments/assets/053214fd-2855-40ee-af04-42162f57fc8c) | Loading image from app resources |
-| ![image](https://github.com/user-attachments/assets/07dc824a-3b02-4926-b089-5c1ecc707295) | Loading image from remote URL |
-| ![image](https://github.com/user-attachments/assets/4d3ce3bc-bb09-497e-8e9c-8b60f0679d13) | Loading image from device storage |
+| <img src="https://github.com/user-attachments/assets/38943b15-221b-4575-bbc1-3dc01a462253" width="200"/> | Main interface with three buttons: Local, URL, and Upload |
+| <img src="https://github.com/user-attachments/assets/053214fd-2855-40ee-af04-42162f57fc8c" width="200"/> | Loading image from app resources |
+| <img src="https://github.com/user-attachments/assets/07dc824a-3b02-4926-b089-5c1ecc707295" width="200"/> | Loading image from remote URL |
+| <img src="https://github.com/user-attachments/assets/4d3ce3bc-bb09-497e-8e9c-8b60f0679d13" width="200"/> | Loading image from device storage |
