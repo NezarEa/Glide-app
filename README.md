@@ -107,11 +107,11 @@ Feel free to submit issues and enhancement requests!
 
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 [NezarElAyachi]
 
 
 ## Credits
-- Special thanks to @NizarETH for assistance with the "Upload" button functionality, ensuring smooth image loading from device storage.
+- Special thanks to [NizarETH] for assistance with the "Upload" button functionality, ensuring smooth image loading from device storage.
 - Glide library: https://github.com/bumptech/glide
 - Icons from flaticon.com
 
