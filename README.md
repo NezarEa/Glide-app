@@ -107,7 +107,7 @@ Feel free to submit issues and enhancement requests!
 
 MIT License
 
-Copyright (c) 2024 **NezarElAyachi**
+Copyright (c) 2024 [@NezarEa](https://github.com/NezarEa)
 
 
 ## Credits
