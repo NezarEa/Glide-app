@@ -6,20 +6,6 @@ This Android application demonstrates different methods of loading and displayin
 2. Loading images from URLs
 3. Loading images from device storage (Downloads folder)
 
-## Features
-- Load images from app resources
-- Load images from remote URLs using Glide
-- Load images from device storage with proper permission handling
-- Support for Android 13+ with modern permission model
-- File Provider implementation for secure file access
-
-## Technical Implementation
-
-### Prerequisites
-- Android Studio
-- Minimum SDK: Android API level that supports FileProvider
-- Glide dependency in your project
-
 ### Required Permissions
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
@@ -40,14 +26,6 @@ The app uses FileProvider for secure file access. Configuration is done in two f
         android:name="android.support.FILE_PROVIDER_PATHS"
         android:resource="@xml/file_paths" />
 </provider>
-```
-
-2. res/xml/file_paths.xml - Provider Paths:
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<paths>
-    <external-path name="external_downloads" path="Download/" />
-</paths>
 ```
 
 ### Key Components
@@ -79,13 +57,6 @@ The app implements a robust permission handling system that:
 - Uses the modern Activity Result API for permission requests
 - Provides user feedback through Toast messages
 
-## Setup Instructions
-
-1. Clone the repository
-2. Open the project in Android Studio
-3. Sync Gradle files
-4. Run the app on an emulator or physical device
-
 ## Usage
 
 1. **Local Image**: Click the "Local" button to load an image from app resources
@@ -93,12 +64,6 @@ The app implements a robust permission handling system that:
 3. **Upload**: Click the "Upload" button to load an image from device storage
    - Grant permissions when prompted
    - Ensure you have an image named "xml.png" in your Downloads folder
-
-## Error Handling
-
-- Permission denials are handled gracefully with user feedback
-- Network errors when loading URLs show an error placeholder
-- Missing files in device storage show appropriate error messages
 
 ## Contributing
 Feel free to submit issues and enhancement requests!
